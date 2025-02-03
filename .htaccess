@@ -1,0 +1,6 @@
+<Files "Kontakt.php,index.php,MojeWyp.php,Przegladaj.php,Aktualnosci.php">
+  Header set Cache-Control "no-cache, no-store, must-revalidate"
+</Files>
+<Files "stylereal.css">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+</Files>
