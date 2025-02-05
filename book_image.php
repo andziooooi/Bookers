@@ -30,11 +30,7 @@ if(isset($_GET['BookID']))
     
 }
 ?>
-<script type="text/javascript">
-    function PrzegladajChange() {
-      window.location.href ="index.php";
-    }
-</script>
+<script src="js/script.js"></script>
 </body>
 </html>
 

@@ -155,41 +155,12 @@ if(isset($_POST['KontaktButtonik'])){
  }
 }
 ?>
-  <script type="text/javascript">
-    function AktualnościChange() {
-      
-      window.location.href = "index.php";
-    }
-    function PrzegladajChange() {
-      window.location.href ="przegladaj.php";
-    }
-    function MojeWypChange() {
-      window.location.href ="MojeWyp.php";
-    }
-    function KontaktChange() {
-      window.location.href ="Kontakt.php";
-    }
-    function MojProfChange() {
-      window.location.href = "MojProf.php";
-    }
-    function scrollToTop() {
-      window.scrollTo({
-        top: 0,
-        behavior: 'instant'
-      });
-    }
-    function LoginPage(){
-      window.location.assign('./login.php');
-    }
-    function Logout() {
-      window.location.href = "Logout.php";
-    }
-  </script>
     </div>
 <footer>
     <div class="footer-content">
         <p style="margin-top:10px;">© 2024 Michał Andrzyk</p>
     </div>
 </footer>
+<script src="js/script.js"></script>
 </body> 
 </html>

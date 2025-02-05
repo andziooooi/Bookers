@@ -21,7 +21,7 @@ if(!isset($_SESSION["userlogged"])){
     <div class="RegLogHeader">
         <h1>Zmień hasło<h1>
         <h3>Rozmyśliłeś się?</h3>
-        <button class="underline-button" onclick="RegisterPage()">Powrót</button>
+        <button class="underline-button" onclick="RegisterPageReturn()">Powrót</button>
     </div>
     <?php
     $borderColorNewPassword = ' 0,5px black';
@@ -99,9 +99,5 @@ if(!isset($_SESSION["userlogged"])){
         </div>       
     </form>
 </div>
-    <script>
-        function RegisterPage(){
-            window.location.assign('./MojProf.php');
-        }
-    </script>
+<script src="js/script.js"></script>
 </body>

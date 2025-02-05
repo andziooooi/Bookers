@@ -145,13 +145,6 @@
         </form>
 
     </div>
-    <script>
-        function LoginPage(){
-            window.location.assign('./login.php');
-        }
-        function AktualnościChange() {
-        window.location.href = "index.php";
-        }
-    </script>
+    <script src="js/script.js"></script>
 
 </body>

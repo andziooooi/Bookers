@@ -80,12 +80,5 @@ if(isset($_SESSION["userlogged"])){
         </div>       
     </form>
 </div>
-    <script>
-        function RegisterPage(){
-            window.location.assign('./register.php');
-        }
-        function AktualnościChange() {
-        window.location.href = "index.php";
-        }
-    </script>
+    <script src="js/script.js"></script>
 </body>
